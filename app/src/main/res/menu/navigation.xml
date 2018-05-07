@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@null"
+        android:title="gsgsg"/>
+
+    <item
+        android:id="@+id/navigation_knowledgesystem"
+        android:icon="@null"
+        android:title="@string/attention"/>
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@null"
+        android:title="gsgsg"/>
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@null"
+        android:title="@string/news"/>
+
+    <item
+        android:id="@+id/navigation_my"
+        android:icon="@null"
+        android:title="@string/mine"/>
+
+</menu>

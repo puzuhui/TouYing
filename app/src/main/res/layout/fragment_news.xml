@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qqstepview(qq步数)"
+        android:id="@+id/qqStepView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="swipeRefresh(刷新圆环)"
+        android:id="@+id/swipeRefresh"
+        app:layout_constraintTop_toBottomOf="@id/qqStepView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bezier(贝塞尔曲线)"
+        android:id="@+id/bezier"
+        app:layout_constraintTop_toBottomOf="@id/swipeRefresh"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="watchboard(时钟)"
+        android:id="@+id/watch_board"
+        app:layout_constraintTop_toBottomOf="@id/bezier"/>
+
+</android.support.constraint.ConstraintLayout>

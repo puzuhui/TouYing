@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.admin.touying.view.news.SwipeRefreshView
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:swipeOuterColor="@color/colorPrimary"
+        app:swipeInnerColor="@color/colorAccent"
+        app:swipeBorderWidth="20dp"
+        app:swipeTextColor="@color/colorPrimary"
+        app:swipeTextSize="26sp"/>
+
+</LinearLayout>

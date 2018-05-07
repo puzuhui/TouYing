@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TestView">
+        <attr name="stepTextSize" format="dimension"/>
+        <attr name="stepTextColor" format="color"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="outerColor" format="color"/>
+        <attr name="borderWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeRefreshView">
+        <attr name="swipeTextColor" format="color"/>
+        <attr name="swipeTextSize" format="dimension"/>
+        <attr name="swipeInnerColor" format="color"/>
+        <attr name="swipeOuterColor" format="color"/>
+        <attr name="swipeBorderWidth" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="WatchBoardView">
+        <!--时针的宽度-->
+        <attr name="hourWheelBorderWidth" format="dimension"/>
+        <!--分针的宽度-->
+        <attr name="minuteWheelBorderWidth" format="dimension"/>
+        <!--秒针的宽度-->
+        <attr name="secondWheelBorderWidth" format="dimension"/>
+        <!--时针颜色-->
+        <attr name="hourWheelColor" format="color"/>
+        <!--分针颜色-->
+        <attr name="minuteWheelColor" format="color"/>
+        <!--秒针颜色-->
+        <attr name="secondWheelColor" format="color"/>
+        <!--长线刻度宽度-->
+        <attr name="longLineBorderWidth" format="dimension"/>
+        <!--短线刻度宽度-->
+        <attr name="shortLineBorderWidth" format="dimension"/>
+        <!--长线刻度颜色-->
+        <attr name="longLineColor" format="color"/>
+        <!--短线刻度颜色-->
+        <attr name="shortLineColor" format="color"/>
+        <!--大圆颜色-->
+        <attr name="bigRoundColor" format="color"/>
+        <!--小圆颜色-->
+        <attr name="smallRoundColor" format="color"/>
+        <!--时间文字颜色-->
+        <attr name="hourTextColor" format="color"/>
+        <!--时间文字大小-->
+        <attr name="hourTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
